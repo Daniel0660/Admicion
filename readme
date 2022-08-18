@@ -1,3 +1,12 @@
+Importante Leer esto -> si aparece este error al compilar el codigo  -> cvc-complex-type.2.4.a: Se ha encontrado contenido no v�lido a partir del elemento 'base-extension'. Se esperaba uno de '{layoutlib}'.
+Unable to load class 'javax.xml.bind.JAXBException'.
+This is an unexpected error. Please file a bug containing the idea.log file.
+
+Es necesario que cambies el jdk al 1.8, Ruta: File -> Proyect Structure -> SDK Location -> y Seleccionan el JDK location "Gradle Settings" -> Gradle JDK: -> por defecto
+se tiene la version 11 de java (pero es para los proyectos mas actualizados) y selecciona la version 1.8 -> Ok -> Ok -> Rebuild Proyect ..... y listo ya se podra compilar el codigo e instalarlo
+
+Nota: Esto ocurre porque el proyecto esta realizado en un Ide mas antiguo y los nuevos IDE's de Android Studio ya trabajan con java 11
+
 Contacto: Daniel Reyez Ortiz
 Telefono: 5628291190
 Correo: dani.isc.0660@gmail.com
